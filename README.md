@@ -13,4 +13,4 @@
 - ` <New_todo addTodo={handleAddTodo} />` 'addTodo' is the variable i was talk about.
 - we also take unique id in this project.
 - if i don't pass (too.too) in the 'Todos.jsx' it show array not the value we input.
-- 
+- WE SENT ID FROM HOME TO Todos'jsx and than Todo.jsx. 
