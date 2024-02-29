@@ -14,3 +14,4 @@
 - we also take unique id in this project.
 - if i don't pass (too.too) in the 'Todos.jsx' it show array not the value we input.
 - WE SENT ID FROM HOME TO Todos'jsx and than Todo.jsx. 
+- 45 minute's 

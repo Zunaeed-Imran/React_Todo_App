@@ -5,6 +5,7 @@ import style from './home.module.css';
 import New_todo from './New_todo';
 
 import { v4 as uuidv4 } from 'uuid';
+// import { todo } from 'node:test';
 
 
 const Home = () => {
@@ -19,7 +20,13 @@ const Home = () => {
   };
 
   const handleRemoveTodo = (id) => {
-    alert(id);
+
+    setTodos((prevTodos) => {
+     const filteredTodos = prevTodos.filter(todo => todo.id !== id);
+
+
+      return filteredTodos;
+    })
   }
 
 
