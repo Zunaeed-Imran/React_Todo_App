@@ -4,8 +4,7 @@ import Todos from './Todos';
 import style from './home.module.css';
 import New_todo from './New_todo';
 
-import { u4 as uuidv4 } from "uuid";
-
+import { v4 as uuidv4 } from 'uuid';
 
 
 const Home = () => {

@@ -5,7 +5,7 @@ const Todos = props => {
   return (
     <section>
       {props.todos.map(todo => (
-        <Todo todo={todo} key={todo.id} />
+        <Todo todo={todo.todo} key={todo.id} id={todo.id} />
       ))}
     </section>
   );
