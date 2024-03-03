@@ -5,7 +5,7 @@ import Todos from './Todos';
 import New_todo from './New_todo';
 
 import { v4 as uuidv4 } from 'uuid';
-// import { todo } from 'node:test';
+
 
 
 const Home = () => {
@@ -34,7 +34,6 @@ const Home = () => {
     <div>
       <New_todo addTodo={handleAddTodo} />
 
-      <h4 style={{ color: 'green' }}>This is From Home</h4>
       <Todos todos={todos} onRemoveTodo={handleRemoveTodo} />
     </div>
   );
