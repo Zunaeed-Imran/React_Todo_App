@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Todos from './Todos';
 
-import style from './home.module.css';
+
 import New_todo from './New_todo';
 
 import { v4 as uuidv4 } from 'uuid';
@@ -31,7 +31,7 @@ const Home = () => {
 
 
   return (
-    <div className={style.container}>
+    <div>
       <New_todo addTodo={handleAddTodo} />
 
       <h4 style={{ color: 'green' }}>This is From Home</h4>
