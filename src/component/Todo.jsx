@@ -1,3 +1,5 @@
+// this page is for show in the display.
+
 import React from 'react'
 import { RiDeleteBin5Line } from 'react-icons/ri';
 

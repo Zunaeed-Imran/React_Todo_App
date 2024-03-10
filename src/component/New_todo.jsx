@@ -1,3 +1,5 @@
+// this page is for add new todo.
+
 import React, { useState } from 'react';
 
 
