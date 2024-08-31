@@ -1,6 +1,6 @@
 // this is home page, we call program form here.
 
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import Todos from './Todos';
 
 
